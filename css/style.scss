@@ -1,0 +1,42 @@
+.body {
+min-width: 414px;}
+.header {
+justify-content: space-between;
+align-items: center;
+
+@media screen {max-width: 1440px;}{
+
+}
+p {padding-left: 15px;}
+
+display: flex;
+.hamburger {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    row-gap: 5px;
+    width: 50px;
+    align-content: center;
+    height: fit-content;
+    margin: 20px auto;
+    &::after {
+    content: "MENU";
+    font-family: 'Inter';
+font-weight: 400;
+font-size: 8px;
+line-height: 8px;
+text-align: center;
+color: #4E5A65;}
+hr {
+    width: 24px;
+    height: 3px;
+    border-radius: 3px;
+    border: none;
+    background: rgb(19, 16, 16);
+    margin: 0 0 0 auto;}
+        
+}
+}
+
+
