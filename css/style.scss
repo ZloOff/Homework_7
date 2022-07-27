@@ -3,13 +3,14 @@ min-width: 414px;}
 .header {
 justify-content: space-between;
 align-items: center;
+display: flex;
 
 @media screen {max-width: 1440px;}{
 
 }
 p {padding-left: 15px;}
 
-display: flex;
+
 .hamburger {
     position: relative;
     display: flex;
