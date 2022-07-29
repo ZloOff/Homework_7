@@ -67,6 +67,13 @@
   .header {
     margin: 40px 165px 0;
   }
+}
+@media screen and (min-width: 900px) and (min-width: 900px) and (max-width: 1066px) {
+  .header {
+    margin: 40px 100px 0px;
+  }
+}
+@media (min-width: 900px) {
   .header_p {
     font-family: "Josefin Sans";
     font-style: normal;
@@ -75,6 +82,8 @@
     line-height: 24px;
     color: #1D2830;
   }
+}
+@media (min-width: 900px) {
   .header_a {
     font-family: "Inter";
     text-decoration: none;
@@ -84,6 +93,8 @@
     line-height: 16px;
     color: #35414B;
   }
+}
+@media (min-width: 900px) {
   .header_a_after::after {
     content: "";
     border: solid black;
@@ -95,10 +106,14 @@
     transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
   }
+}
+@media (min-width: 900px) {
   .header_desktop {
     display: flex;
     gap: 16px;
   }
+}
+@media (min-width: 900px) {
   .header_btn {
     background: #ECE6FF;
     border-radius: 4px;
@@ -114,4 +129,41 @@
     color: #794CFF;
     margin-left: 16px;
   }
+}
+.about-a {
+  z-index: -1;
+  margin-right: -20px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+  color: #FFFFFF;
+  text-decoration: none;
+  background: #81C43B;
+  border-radius: 100px;
+  padding: 8px 16px;
+}
+
+.about-of {
+  background: #F2F9EB;
+  text-decoration: none;
+  border-radius: 0px 100px 100px 0px;
+  padding: 8px 22px 8px 40px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  color: #35414B;
+}
+
+.about div h1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 72px;
+  text-align: center;
+  color: #35414B;
 }/*# sourceMappingURL=style.css.map */
