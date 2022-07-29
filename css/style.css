@@ -130,33 +130,77 @@
     margin-left: 16px;
   }
 }
-.about-a {
+.about .container {
+  display: flex;
+  flex-direction: column;
+}
+.about .container div:last-child {
+  display: flex;
+  flex-direction: column;
+}
+.about .container .about-a {
   display: none;
-  z-index: -1;
-  margin-right: -20px;
+}
+.about .container .about-of {
   font-family: "Inter";
   font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 16px;
-  color: #FFFFFF;
-  text-decoration: none;
-  background: #81C43B;
-  border-radius: 100px;
-  padding: 8px 16px;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 13px;
+  color: #35414B;
 }
-
-.about-of {
-  background: #F2F9EB;
-  text-decoration: none;
-  border-radius: 0px 100px 100px 0px;
-  padding: 8px 22px 8px 40px;
+.about .container .about-of::after {
+  content: ">";
+  padding-left: 4px;
+}
+.about .container h1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 40px;
+  text-align: center;
+  color: #35414B;
+}
+.about .container p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #4E5A65;
+}
+.about .container div:last-child input {
+  margin: 0 auto;
+  width: 318px;
+  height: 52px;
+  padding: 18px 61px;
+  background: #FFFFFF;
+  border: 1px solid #E1E5EA;
+  border-radius: 4px;
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 16px;
-  color: #35414B;
+  color: #97A5B5;
+}
+.about .container div:last-child button {
+  margin: 0 auto;
+  width: 318px;
+  height: 52px;
+  padding: 18px 122px;
+  background: #794CFF;
+  border: 1px solid #794CFF;
+  border-radius: 4px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+  text-align: center;
+  color: #FFFFFF;
 }
 
 @media screen and (min-width: 900px) {
@@ -178,6 +222,32 @@
   }
   .about .container .about-a {
     display: inline-block;
+  }
+  .about .container .about-a {
+    z-index: -1;
+    margin-right: -20px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    color: #FFFFFF;
+    text-decoration: none;
+    background: #81C43B;
+    border-radius: 100px;
+    padding: 8px 16px;
+  }
+  .about .container .about-of {
+    background: #F2F9EB;
+    text-decoration: none;
+    border-radius: 0px 100px 100px 0px;
+    padding: 8px 22px 8px 40px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: #35414B;
   }
   .about .container h1 {
     font-family: "Inter";
