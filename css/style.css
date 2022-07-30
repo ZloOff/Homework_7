@@ -669,4 +669,29 @@
   .manager img:last-child {
     margin-bottom: 0px;
   }
+}
+.footer {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #1D2830;
+}
+.footer h2 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 16px;
+  font-feature-settings: "salt" on, "liga" off;
+  color: #FFFFFF;
+}
+.footer p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  font-feature-settings: "salt" on, "liga" off;
+  color: #FFFFFF;
 }/*# sourceMappingURL=style.css.map */
