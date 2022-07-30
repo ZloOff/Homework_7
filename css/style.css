@@ -508,4 +508,48 @@
     text-align: center;
     margin: 0 auto;
   }
+}
+
+.everyday {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.everyday img {
+  width: 384px;
+}
+.everyday h2 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  color: #35414B;
+}
+.everyday p {
+  margin-top: 16px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #4E5A65;
+}
+.everyday button {
+  text-align: center;
+  margin-top: 34px;
+  padding: 18 98;
+  background: #796EFF;
+  border-radius: 4px;
+  font-family: "Inter";
+  width: 318px;
+  height: 52px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+  text-align: center;
+  color: #FFFFFF;
 }/*# sourceMappingURL=style.css.map */
