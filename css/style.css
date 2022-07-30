@@ -361,6 +361,7 @@
   height: 112px;
 }
 .timeline .div_timeline h2 {
+  margin-top: 26px;
   font-family: "Inter";
   font-style: normal;
   font-weight: 600;
@@ -379,13 +380,47 @@
   color: #4E5A65;
 }
 .timeline .div_timeline div:first-child {
-  padding: 18px;
+  padding: 18px 38px;
+  padding-top: 0%;
   background: #F6F3FC;
   border: 1px solid #F6F3FC;
   border-bottom: 5px solid #794CFF;
-  margin-bottom: 26px;
 }
 .timeline .timeline_p {
   border-bottom: 1px solid #F0EBFA;
   padding-bottom: 26px;
+}
+
+@media screen and (min-width: 900px) {
+  .timeline {
+    margin-top: 106px;
+    background: #FBFAFE;
+  }
+  .timeline .container {
+    gap: 80px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+  }
+  .timeline .container .img_timeline {
+    width: 657px;
+    margin: 0;
+  }
+  .timeline .container .div_timeline {
+    margin: 0;
+  }
+  .timeline .container .div_timeline div:nth-child(1n+1) {
+    padding: 26px 32px;
+    padding-top: 0%;
+  }
+  .timeline .container .div_timeline div:nth-child(1n+1):first-child {
+    border: 1px solid #F6F3FC;
+    border-left: 5px solid #794CFF;
+  }
+  .timeline .container .div_timeline div:nth-child(1n+1) h2 {
+    text-align: left;
+  }
+  .timeline .container .div_timeline div:nth-child(1n+1) p {
+    text-align: left;
+  }
 }/*# sourceMappingURL=style.css.map */

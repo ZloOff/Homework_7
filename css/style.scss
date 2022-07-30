@@ -339,6 +339,7 @@ margin: 0 auto;
 width: 384px;
 height: 112px;
 h2 {
+    margin-top: 26px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 600;
@@ -355,18 +356,43 @@ p {
     text-align: center;
     color: #4E5A65;}
 div {&:first-child {
-padding: 18px;
+padding: 18px 38px;
+padding-top: 0%;
 background: #F6F3FC;
 border: 1px solid #F6F3FC;
-border-bottom: 5px solid #794CFF;
-margin-bottom: 26px;}}}
+border-bottom: 5px solid #794CFF;}}}
 .timeline_p {
 border-bottom: 1px solid #F0EBFA;
 padding-bottom: 26px;}}
 
-
-
-
+@media screen and (min-width: 900px) {
+.timeline {
+margin-top: 106px;
+background: #FBFAFE;
+.container {
+gap: 80px;
+margin: 0;
+display: flex;
+justify-content: center;
+.img_timeline {
+width: 657px;
+margin: 0;}
+.div_timeline {
+margin: 0;
+div {&:nth-child(1n+1) {
+    padding: 26px 32px;
+    padding-top: 0%;
+    &:first-child {
+border: 1px solid #F6F3FC;
+border-left: 5px solid #794CFF;}
+h2 {text-align: left;}
+p {text-align: left;}
+}
+}
+}
+}
+}
+}
 
 
 // .servey {
