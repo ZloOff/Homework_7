@@ -353,6 +353,11 @@
   margin: 0 auto;
 }
 
+.servey {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .servey h2 {
   font-family: "Inter";
   font-style: normal;
@@ -377,9 +382,6 @@
   margin: 0 auto;
   width: 384px;
   height: 112px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 .servey .div_servey div:first-child {
   padding: 18px;
@@ -391,4 +393,41 @@
 .servey .servey_p {
   border-bottom: 1px solid #F0EBFA;
   padding-bottom: 26px;
+}
+.servey .work {
+  margin-bottom: 56px;
+}
+.servey .work h2 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 18px;
+  text-align: center;
+  color: #35414B;
+}
+.servey .work p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #4E5A65;
+}
+.servey .work button {
+  width: 318px;
+  height: 52px;
+  left: 48px;
+  top: 2507px;
+  background: #ECE5FF;
+  border: 1px solid #ECE5FF;
+  border-radius: 4px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+  text-align: center;
+  color: #7259FA;
 }/*# sourceMappingURL=style.css.map */
