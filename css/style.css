@@ -786,7 +786,7 @@
     align-items: flex-start;
     display: flex;
     flex-direction: row;
-    gap: 180px;
+    gap: 100px;
     justify-content: center;
     padding-top: 80px;
   }
