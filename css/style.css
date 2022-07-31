@@ -448,6 +448,17 @@
   flex-direction: column;
   margin-bottom: 56px;
 }
+@media screen and (min-width: 900px) {
+  .servey .work {
+    gap: 120px;
+  }
+}
+@media screen and (min-width: 900px) {
+  .servey .work div {
+    width: 322px;
+    margin: 0 auto;
+  }
+}
 .servey .work .work_img {
   display: block;
   text-align: center;
@@ -502,6 +513,11 @@
     display: block;
     display: flex;
     flex-direction: row;
+    gap: 120px;
+  }
+  .servey .desktop div {
+    width: 322px;
+    margin: 0 auto;
   }
   .servey .work_img {
     display: block;
@@ -554,18 +570,29 @@
   color: #FFFFFF;
 }
 .everyday .div_evryday {
-  padding: 18 98;
+  padding: 18px 98px;
 }
 
 @media screen and (min-width: 900px) {
   .everyday {
+    margin-top: 100px;
     display: flex;
     flex-direction: row-reverse;
-    gap: 90px;
+    gap: 20px;
+    justify-content: center;
   }
   .everyday .everyday_img {
     display: block;
     width: 596px;
+  }
+  .everyday .div_evryday h2 {
+    text-align: left;
+  }
+  .everyday .div_evryday p {
+    text-align: left;
+  }
+  .everyday .div_evryday button {
+    margin-left: 0;
   }
 }
 .about {
@@ -596,7 +623,7 @@
   text-align: center;
   color: #4E5A65;
 }
-.about .us:nth-child(3) {
+.about .us .about_us:nth-child(2), .about .us .about_us:nth-child(3) {
   display: none;
 }
 .about .about_us img {
@@ -624,8 +651,13 @@
 
 @media screen and (min-width: 900px) {
   .about .us {
+    gap: 141px;
+    margin-bottom: 100px;
     display: flex;
     justify-content: space-between;
+  }
+  .about .us .about_us:nth-child(2), .about .us .about_us:nth-child(3) {
+    display: block;
   }
 }
 .manager {
@@ -666,7 +698,15 @@
     flex-direction: row;
     align-items: center;
   }
+  .manager h2 {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+  }
+  .manager img {
+    margin: 0;
+  }
   .manager img:last-child {
+    margin-right: 100px;
     margin-bottom: 0px;
   }
 }
