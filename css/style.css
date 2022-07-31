@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .body {
   min-width: 414px;
 }
@@ -714,10 +715,13 @@
   margin-top: 100px;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
+  padding-left: 20px;
   background: #1D2830;
 }
 .footer h2 {
+  padding-top: 10px;
+  padding-bottom: 10px;
   font-family: "Inter";
   font-style: normal;
   font-weight: 600;
@@ -726,7 +730,20 @@
   font-feature-settings: "salt" on, "liga" off;
   color: #FFFFFF;
 }
+.footer .footr_after1::after {
+  content: "∨";
+  padding-left: 200px;
+}
+.footer .footr_after2::after {
+  content: "∨";
+  padding-left: 210px;
+}
+.footer .footr_after3::after {
+  content: "∨";
+  padding-left: 226px;
+}
 .footer p {
+  display: none;
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
@@ -734,4 +751,30 @@
   line-height: 16px;
   font-feature-settings: "salt" on, "liga" off;
   color: #FFFFFF;
+}
+.footer img {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: block;
+}
+
+.footer_div {
+  background-color: #1D2830;
+}
+.footer_div h2 {
+  padding: 32px 30px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  font-feature-settings: "salt" on, "liga" off;
+  color: #D9DBE1;
+}
+.footer_div img {
+  display: none;
+}
+
+.footr_after4 {
+  padding-bottom: 20px;
 }/*# sourceMappingURL=style.css.map */
